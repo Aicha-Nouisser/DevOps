@@ -59,5 +59,5 @@ public class FournisseurRestController {
 		public void assignProduitToStock(@PathVariable("idSecteurActivite") Long idSecteurActivite, @PathVariable("idFournisseur") Long idFournisseur) {
 			fournisseurService.assignSecteurActiviteToFournisseur(idSecteurActivite, idFournisseur);
 		}
-
+////3nd update
 }
