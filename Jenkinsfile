@@ -6,7 +6,7 @@ pipeline {
             steps{
                 echo 'Pulling ... ';
             git branch:'asma_abessi' ,
-            url : 'https://github.com/asma-abessi/achat-devops.git';
+            url : 'https://github.com/Aicha-Nouisser/DevOps.git';
             }
         }
         stage("Mvn clean") {
